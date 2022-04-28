@@ -1,0 +1,147 @@
+html{
+    height: 100%;
+}
+
+body{
+background-color: rgb(202, 202, 224);
+}
+
+
+.table{
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.vl{
+    border-left: 3px solid black;
+    height: 500px;
+    margin-left: 2px;
+    top: 0;
+    padding: 0;
+}
+
+.hl{
+    border-top: 3px solid black;
+    width: 700px;
+    margin-left: 2px;
+    top: 0;
+    padding: 0;
+}
+
+.x-coordinate{
+    display: flex;
+}
+
+.arrow-right{
+    margin-top: -7px;
+}
+
+.arrow_up{
+    margin: 0;
+    padding: 0;
+}
+
+
+input {
+    width: 45px;
+    height: 42px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    margin-right: 5px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+
+
+.column{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.col-ex{
+    width: 30px;
+    /* background-color: green; */
+    /* height: 500px; */
+    margin: 0 10px;
+    border-radius: 3px 3px 0 0;
+    animation: 3.2s bgrandom infinite;
+}
+
+
+.col_desk{
+    width: 50px;
+    margin: 20px 10px 0px 10px;
+    animation: 3.2s bgrandom infinite;
+}
+
+
+.number-of-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-of-col button{
+    width: 80px;
+    margin-top: -120px;
+    height: 50px;
+    background-color: rgb(159, 238, 159);
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.number-of-col input{
+    margin-top: -120px;
+}
+
+
+
+.array_col_desk{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+
+
+
+@keyframes bgrandom {
+    0% { background:  rgba(230, 90, 90, 0.98) 50%; }
+    10% { background:  rgba(225, 90, 90, 0.98) 50%;}
+    15% { background:  rgba(200, 90, 90, 0.98) 50%; }
+    25% { background:   rgba(175, 90, 90, 0.98) 50%; }
+
+    30% { background: rgba(150, 90, 90, 0.98) 50%}
+    32% { background: rgba(125, 90, 90, 0.98) 50%}
+    35% { background:   rgba(100, 90, 90, 0.98)  50%; }
+    37% { background:   rgba(75, 90, 90, 0.98)  50%; }
+
+    40% { background:  rgba(50, 90, 90, 0.98) 50%; }
+    50% { background:  rgba(15, 90, 90, 0.98) 50%; }
+
+
+    60% { background:  rgba(50, 90, 90, 0.98) 50%; }
+    63% { background:   rgba(75, 90, 90, 0.98)  50%; }
+    65% { background:   rgba(100, 90, 90, 0.98)  50%; }
+    80% { background:   rgba(125, 90, 90, 0.98) 50%; }
+    85% { background:   rgba(150, 90, 90, 0.98) 50%; }
+    90% { background:   rgba(175, 90, 90, 0.98) 50%; }
+    95% { background:  rgba(200, 90, 90, 0.98) 50%; }
+    100% { background:  rgba(225, 90, 90, 0.98) 50%; }
+    }
